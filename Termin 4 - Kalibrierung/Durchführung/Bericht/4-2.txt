@@ -1,0 +1,48 @@
+Lese Datensatz aus 4_2_System1.txt
+Lese Datensatz aus 4_2_System2.txt
+Lese Datensatz aus 4_2_System3.txt
+Lese Datensatz aus 4_2_System4.txt
+Lese Datensatz aus 4_2_System5.txt
+Lese Datensatz aus 4_2_System6.txt
+Lese Datensatz aus 4_2_System7.txt
+Lese Datensatz aus 4_2_System8.txt
+
+System 1 nach 2
+Transformationsmatrix Sys1 nach Sys 2 4 x 4 Transform
+0.985230        0.171207        0.003152        -252.307704
+-0.171214       0.985231        0.002277        -174.796067
+-0.002715       -0.002783       0.999992        0.462192
+0.000000        0.000000        0.000000        1.000000
+
+System 3 nach 4
+Transformationsmatrix Sys1 nach Sys 2 4 x 4 Transform
+-0.517979       0.855393        -0.000047       236.817210
+-0.855389       -0.517977       0.003032        -234.055211
+0.002569        0.001611        0.999995        0.353946
+0.000000        0.000000        0.000000        1.000000
+
+System 5 nach 6
+Transformationsmatrix Sys1 nach Sys 2 4 x 4 Transform
+-0.329056       -0.944310       0.001261        -233.017251
+0.944308        -0.329052       0.002781        79.421043
+-0.002211       0.002106        0.999995        0.073087
+0.000000        0.000000        0.000000        1.000000
+
+System 7 nach 8
+Transformationsmatrix Sys1 nach Sys 2 4 x 4 Transform
+0.923591        -0.383376       0.001418        -264.349646
+0.383375        0.923593        0.000398        242.670564
+-0.001462       0.000176        0.999999        0.445352
+0.000000        0.000000        0.000000        1.000000
+
+Verkettete Transformationen 4 x 4 Transform
+0.999905        -0.012206       0.006358        -1.205218
+0.012191        0.999923        0.002337        1.215314
+-0.006386       -0.002259       0.999977        -0.128655
+0.000000        0.000000        0.000000        1.000000
+
+Soll 4 x 4 Transform
+1.000000        0.000000        0.000000        0.000000
+0.000000        1.000000        0.000000        0.000000
+0.000000        0.000000        1.000000        0.000000
+0.000000        0.000000        0.000000        1.000000

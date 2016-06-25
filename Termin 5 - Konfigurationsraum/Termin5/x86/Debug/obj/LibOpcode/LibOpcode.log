@@ -1,0 +1,39 @@
+﻿  IceUtils.cpp
+  IceTriangle.cpp
+  IceSegment.cpp
+  IceRevisitedRadix.cpp
+  IceRay.cpp
+  IceRandom.cpp
+  IcePoint.cpp
+  IcePlane.cpp
+  IceOBB.cpp
+  IceMatrix4x4.cpp
+  IceMatrix3x3.cpp
+  IceIndexedTriangle.cpp
+  IceHPoint.cpp
+  IceContainer.cpp
+  IceAABB.cpp
+  OPC_Picking.cpp
+  OPC_SweepAndPrune.cpp
+  OPC_BoxPruning.cpp
+  OPC_TreeBuilders.cpp
+  OPC_OptimizedTree.cpp
+  Code wird generiert...
+  Kompilieren...
+  OPC_MeshInterface.cpp
+  OPC_AABBTree.cpp
+  OPC_TreeCollider.cpp
+  OPC_SphereCollider.cpp
+  OPC_RayCollider.cpp
+  OPC_PlanesCollider.cpp
+  OPC_OBBCollider.cpp
+  OPC_LSSCollider.cpp
+  OPC_AABBCollider.cpp
+  OPC_VolumeCollider.cpp
+  OPC_Collider.cpp
+  OPC_Model.cpp
+  OPC_HybridModel.cpp
+  OPC_BaseModel.cpp
+  Opcode.cpp
+  Code wird generiert...
+  LibOpcode.vcxproj -> C:\Users\Alexander Wilms\Documents\Ausbildung\Hochschule Darmstadt\6. Semester\Simulation von Robotersystemen\Praktikum\Termin 5 - Konfigurationsraum\Termin5\x86\Debug\LibOpcode.lib

@@ -1,0 +1,4 @@
+﻿  main.cpp
+c:\users\alexander wilms\documents\ausbildung\hochschule darmstadt\6. semester\simulation von robotersystemen\praktikum\termin 5 - konfigurationsraum\termin5\prismaticjoints\main.cpp(21): warning C4101: "x": Unreferenzierte lokale Variable
+c:\users\alexander wilms\documents\ausbildung\hochschule darmstadt\6. semester\simulation von robotersystemen\praktikum\termin 5 - konfigurationsraum\termin5\prismaticjoints\main.cpp(97): warning C4700: Die nicht initialisierte lokale Variable "nCollisions" wurde verwendet.
+  PrismaticJoints.vcxproj -> C:\Users\Alexander Wilms\Documents\Ausbildung\Hochschule Darmstadt\6. Semester\Simulation von Robotersystemen\Praktikum\Termin 5 - Konfigurationsraum\Termin5\x86\Debug\PrismaticJoints.exe

@@ -1,0 +1,13 @@
+﻿  zutil.c
+  uncompr.c
+  trees.c
+  inftrees.c
+  inflate.c
+  inffast.c
+  infback.c
+  deflate.c
+  crc32.c
+  compress.c
+  adler32.c
+  Code wird generiert...
+  zlib.vcxproj -> C:\Users\Alexander Wilms\Documents\Ausbildung\Hochschule Darmstadt\6. Semester\Simulation von Robotersystemen\Praktikum\Termin 6 - Breitensuche\Termin6\x86\Debug\zlib.lib

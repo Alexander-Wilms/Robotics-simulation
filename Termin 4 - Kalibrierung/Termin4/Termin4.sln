@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LibVectmath", "LibVectmath\LibVectmath.vcxproj", "{564A07CB-AF5F-4361-A9EA-52A25599B5DD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Termin4_1", "Termin4_1\Termin4_1.vcxproj", "{FA888987-9C16-4EF2-8A25-4C1964D53D24}"
+	ProjectSection(ProjectDependencies) = postProject
+		{564A07CB-AF5F-4361-A9EA-52A25599B5DD} = {564A07CB-AF5F-4361-A9EA-52A25599B5DD}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Termin4_2", "Termin4_2\Termin4_2.vcxproj", "{881C7FF0-0157-4448-B2E6-2AEE080A065E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{564A07CB-AF5F-4361-A9EA-52A25599B5DD} = {564A07CB-AF5F-4361-A9EA-52A25599B5DD}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Termin4_3", "Termin4_3\Termin4_3.vcxproj", "{DCB0BC5A-1519-4885-B11C-C90B009D072F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{564A07CB-AF5F-4361-A9EA-52A25599B5DD} = {564A07CB-AF5F-4361-A9EA-52A25599B5DD}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{564A07CB-AF5F-4361-A9EA-52A25599B5DD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{564A07CB-AF5F-4361-A9EA-52A25599B5DD}.Debug|Win32.Build.0 = Debug|Win32
+		{564A07CB-AF5F-4361-A9EA-52A25599B5DD}.Release|Win32.ActiveCfg = Release|Win32
+		{564A07CB-AF5F-4361-A9EA-52A25599B5DD}.Release|Win32.Build.0 = Release|Win32
+		{FA888987-9C16-4EF2-8A25-4C1964D53D24}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FA888987-9C16-4EF2-8A25-4C1964D53D24}.Debug|Win32.Build.0 = Debug|Win32
+		{FA888987-9C16-4EF2-8A25-4C1964D53D24}.Release|Win32.ActiveCfg = Release|Win32
+		{FA888987-9C16-4EF2-8A25-4C1964D53D24}.Release|Win32.Build.0 = Release|Win32
+		{881C7FF0-0157-4448-B2E6-2AEE080A065E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{881C7FF0-0157-4448-B2E6-2AEE080A065E}.Debug|Win32.Build.0 = Debug|Win32
+		{881C7FF0-0157-4448-B2E6-2AEE080A065E}.Release|Win32.ActiveCfg = Release|Win32
+		{881C7FF0-0157-4448-B2E6-2AEE080A065E}.Release|Win32.Build.0 = Release|Win32
+		{DCB0BC5A-1519-4885-B11C-C90B009D072F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DCB0BC5A-1519-4885-B11C-C90B009D072F}.Debug|Win32.Build.0 = Debug|Win32
+		{DCB0BC5A-1519-4885-B11C-C90B009D072F}.Release|Win32.ActiveCfg = Release|Win32
+		{DCB0BC5A-1519-4885-B11C-C90B009D072F}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(DPCodeReviewSolutionGUID) = preSolution
+		DPCodeReviewSolutionGUID = {00000000-0000-0000-0000-000000000000}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,1220 @@
+CELLFILE V 6.6
+! Z:\Desktop-Win\Rosy-RV12.cel
+! L1195905-6 6
+ROBOTFILE V 6.6
+! Z:\Desktop-Win\
+! L1195905-6 6
+! robotname ACCESSORY-ROBOT Unique_ID
+name         ACCESSORY-ROBOT 198272483
+kin_id       10 UNIV_ROB DH_ROB
+type_dir_chain     R Z C
+num_configs  1
+! Inverse kin_number  kin_user_data_file_name Invkin_Sub_ID
+invkin_no    0 NULL 0
+kin_dof      1 12 12
+! lz
+lenghts                 0.0000000
+! lx
+offsets1                0.0000000
+! ly
+offsets2                0.0000000
+! rot_x
+ROT_X                   0.0000000
+! rot_y
+ROT_Y                   0.0000000
+! rot_z
+ROT_Z                   0.0000000
+!
+!Passive Joints
+passiv_jnts 0
+!End Passive Joints
+!
+! base to Joint 1
+bT0                     0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+! singularity tolerances
+sing_tol                0.0050000    0.1000000
+! joint offsets
+joint_offsets           0.0000000
+! sign
+verpolt                   1
+config      1
+! config solution IDs
+cnfg_soln                 0
+! world to basis
+wTb                     0.4193000    0.1135750   -0.0030000    0.0000000    0.0000000  -90.0000000
+! joint start_location
+q                       0.0000000
+! travel range min
+swe_min                -1.9999994
+! travel range max
+swe_max                 1.9999994
+ROBATTRIB
+! Robot Type
+ROB_ROBOT_TYPE            2
+! Robot enable  1-Enabled 0-Disabled
+ROB_ROBOT_ENABLED         1
+! Robot render  0-Visible 4-Invisible
+ROB_ROBOT_RENDER          0
+! Tool render  0-Visible 4-Invisible
+ROB_TOOL_RENDER           0
+! Robot Collision  1-robot is in collision queue
+ROB_ROBOT_COLLISION       1
+! Tool Collision  1-tool is in collision queue
+ROB_TOOL_COLLISION        1
+! Robot Reference Collision  1-collision chk vs. reference device
+ROB_ROBOT_REF_COLLISION      0
+! travel range calc
+ROB_SWE_CALC              0
+! Jnt 1
+ROB_SWE_MIN_CALC 1 =SWEN(1)
+ROB_SWE_MAX_CALC 1 =SWEP(1)
+! Robot Cartesian active, passive Jnt Idx Bitfield
+CART_LIMIT_JNT_IDX   0x007f 0x0000
+! Robot Cartesian Space Limits Min
+CART_LIMIT_MIN          0.0000000    0.0000000    0.0000000
+! Robot Cartesian Space Limits Max
+CART_LIMIT_MAX          0.0000000    0.0000000    0.0000000
+! active Jnt achs_T0_last
+! Extended Attributes: Backlink Axis_CouplingA2A3 CounterWeight [-1 or 2- undef, 0-No, 1-Yes]
+ROB_EXT_ATTRIB            2 2 2
+! Turn interval [deg, m]
+ROB_TURN_INTERVAL       0.0000000
+! Turn offset [deg, m]
+ROB_TURN_OFFSET         0.0000000
+! Ext. TCP
+ROB_EXT_TCP             0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+ROB_EXT_TCP_BASE        0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+! Number Tools, current Tool
+ROB_NUM_TOOL              1 1
+! Tool name
+ROB_TOOL_NAME        TOOL_1
+! Tool
+ROB_TOOL                0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+! Number Homepositions, current Homeposition
+ROB_NUM_HOMEPOS           1 1
+! Homepos name
+ROB_HOMEPOS_NAME     HOME_1
+! home position [deg, m]
+ROB_HOMEPOS             0.0000000
+! Joint name
+ROB_JOINT_NAME       Joint_1
+! Configuration name
+ROB_CONFIG_NAME      Config_1
+! Number Kin_User_Data
+ROB_NUM_KIN_USRD         12
+! Kin. User Data Name
+ROB_KIN_USRD_NAME    KUD_1_1 KUD_1_2 KUD_1_3 KUD_1_4 KUD_1_5 KUD_1_6 KUD_1_7 KUD_1_8 KUD_1_9 KUD_1_10 KUD_1_11 KUD_1_12
+! Kin. User Data [deg,mm]
+ROB_KIN_USRD            0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+! Kin. User Data Name
+ROB_KIN_USRD_NAME    KUD_2_1 KUD_2_2 KUD_2_3 KUD_2_4 KUD_2_5 KUD_2_6 KUD_2_7 KUD_2_8 KUD_2_9 KUD_2_10 KUD_2_11 KUD_2_12
+! Kin. User Data [deg,mm]
+ROB_KIN_USRD            0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+! Kin. User Data Name
+ROB_KIN_USRD_NAME    KUD_3_1 KUD_3_2 KUD_3_3 KUD_3_4 KUD_3_5 KUD_3_6 KUD_3_7 KUD_3_8 KUD_3_9 KUD_3_10 KUD_3_11 KUD_3_12
+! Kin. User Data [deg,mm]
+ROB_KIN_USRD            0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+! Kin. User Data Name
+ROB_KIN_USRD_NAME    KUD_4_1 KUD_4_2 KUD_4_3 KUD_4_4 KUD_4_5 KUD_4_6 KUD_4_7 KUD_4_8 KUD_4_9 KUD_4_10 KUD_4_11 KUD_4_12
+! Kin. User Data [deg,mm]
+ROB_KIN_USRD            0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+! Kin. User Data Name
+ROB_KIN_USRD_NAME    KUD_5_1 KUD_5_2 KUD_5_3 KUD_5_4 KUD_5_5 KUD_5_6 KUD_5_7 KUD_5_8 KUD_5_9 KUD_5_10 KUD_5_11 KUD_5_12
+! Kin. User Data [deg,mm]
+ROB_KIN_USRD            0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+! Kin. User Data Name
+ROB_KIN_USRD_NAME    KUD_6_1 KUD_6_2 KUD_6_3 KUD_6_4 KUD_6_5 KUD_6_6 KUD_6_7 KUD_6_8 KUD_6_9 KUD_6_10 KUD_6_11 KUD_6_12
+! Kin. User Data [deg,mm]
+ROB_KIN_USRD            0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+! Kin. User Data Name
+ROB_KIN_USRD_NAME    KUD_7_1 KUD_7_2 KUD_7_3 KUD_7_4 KUD_7_5 KUD_7_6 KUD_7_7 KUD_7_8 KUD_7_9 KUD_7_10 KUD_7_11 KUD_7_12
+! Kin. User Data [deg,mm]
+ROB_KIN_USRD            0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+! Kin. User Data Name
+ROB_KIN_USRD_NAME    KUD_8_1 KUD_8_2 KUD_8_3 KUD_8_4 KUD_8_5 KUD_8_6 KUD_8_7 KUD_8_8 KUD_8_9 KUD_8_10 KUD_8_11 KUD_8_12
+! Kin. User Data [deg,mm]
+ROB_KIN_USRD            0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+! Kin. User Data Name
+ROB_KIN_USRD_NAME    KUD_9_1 KUD_9_2 KUD_9_3 KUD_9_4 KUD_9_5 KUD_9_6 KUD_9_7 KUD_9_8 KUD_9_9 KUD_9_10 KUD_9_11 KUD_9_12
+! Kin. User Data [deg,mm]
+ROB_KIN_USRD            0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+! Kin. User Data Name
+ROB_KIN_USRD_NAME    KUD_10_1 KUD_10_2 KUD_10_3 KUD_10_4 KUD_10_5 KUD_10_6 KUD_10_7 KUD_10_8 KUD_10_9 KUD_10_10 KUD_10_11 KUD_10_12
+! Kin. User Data [deg,mm]
+ROB_KIN_USRD            0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+! Kin. User Data Name
+ROB_KIN_USRD_NAME    KUD_11_1 KUD_11_2 KUD_11_3 KUD_11_4 KUD_11_5 KUD_11_6 KUD_11_7 KUD_11_8 KUD_11_9 KUD_11_10 KUD_11_11 KUD_11_12
+! Kin. User Data [deg,mm]
+ROB_KIN_USRD            0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+! Kin. User Data Name
+ROB_KIN_USRD_NAME    KUD_12_1 KUD_12_2 KUD_12_3 KUD_12_4 KUD_12_5 KUD_12_6 KUD_12_7 KUD_12_8 KUD_12_9 KUD_12_10 KUD_12_11 KUD_12_12
+! Kin. User Data [deg,mm]
+ROB_KIN_USRD            0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+! v_max [deg/s, m/s]
+ROB_V_MAX             180.0000000
+! a_max [deg/s^2, m/s^2]
+ROB_A_MAX             360.0000000
+! t_max [Nm, N]
+ROB_T_MAX              15.0000000
+! vx_max [m/s]
+ROB_VX_MAX              1.0000000
+! vx_ori_max [deg/s]
+ROB_VX_ORI_MAX        180.0000000
+! ax_max [m/s^2]
+ROB_AX_MAX              2.0000000
+! ax_ori_max [deg/s^2]
+ROB_AX_ORI_MAX        360.0000000
+! dyn_cntrl_fct
+ROB_DYN_CNTR              0
+! dyn_model_fct
+ROB_DYN_MODE              0
+! gear ratio
+ROB_N                  50.0000000
+! T_base
+ROB_T_BASE              2.7419357
+! Inertia base
+ROB_INERTIA             0.0051000
+! Damping base
+ROB_DAMPING             0.0018600
+! vz1_v
+ROB_VZ1_V             537.6343994
+! vz1_a
+ROB_VZ1_A               0.9981781
+! KPP
+ROB_KPP                 7.4429770
+! KPV
+ROB_KPV                 0.1469400
+! KIV
+ROB_KIV                29.5457897
+! AUX1
+ROB_AUX1                1.0000000
+! AUX2
+ROB_AUX2                0.0000000
+! AUX3
+ROB_AUX3                0.0000000
+! ipo_jnt_fct
+ROB_IPO_JNT               0
+! ipo_cp_fct
+ROB_IPO_CP                0
+! ipo_circ_fct
+ROB_IPO_CIRC              0
+! DT_SYS [s]
+ROB_DT_SYS              0.0050000
+! DT_CNTRL [s]
+ROB_DT_CNTRL            0.0100000
+! DT_IPO [s]
+ROB_DT_IPO              0.0100000
+! IPO LEAD [s]
+ROB_IPO_LEAD            0.0000000
+! IPO LAG [s]
+ROB_IPO_LAG             0.0000000
+! IPO Vq [deg/s], Vq_Ov []
+ROB_IPO_VQ             20.0000000   11.1111107
+! IPO Vqe [deg/s]
+ROB_IPO_VQE             0.0000000
+! IPO Vx [m/s]
+ROB_IPO_VX              0.1000000
+! IPO Vxe [m/s]
+ROB_IPO_VXE             0.0000000
+! IPO Aq [deg/s^2]
+ROB_IPO_AQ             40.0000000
+! IPO Ax [m/s^2]
+ROB_IPO_AX              1.5000000
+! IPO Ov_Pro []
+ROB_IPO_OV_PRO        100.0000000
+! IPO Vq_Axis [deg/s, m/s]
+ROB_IPO_VQ_AXIS        20.0000000
+! IPO Aq_Axis [deg/s^2, m/s^2]
+ROB_IPO_AQ_AXIS        40.0000000
+! IPO Aq_Decel_Axis [deg/s^2, m/s^2]
+ROB_IPO_AQ_DECEL_AXIS   40.0000000
+! IPO VX_ORI [deg/s]
+ROB_IPO_VX_ORI         20.0000000
+! IPO VXE_ORI [deg/s]
+ROB_IPO_VXE_ORI         0.0000000
+! IPO AX_ORI [deg/s]
+ROB_IPO_AX_ORI         40.0000000
+! IPO AQE [deg/s^2]
+ROB_IPO_AQE            40.0000000
+! IPO AXE [m/s^2]
+ROB_IPO_AXE             1.5000000
+! IPO AXE_ORI [deg/s^2]
+ROB_IPO_AXE_ORI        40.0000000
+! IPO Zone [mm]
+ROB_IPO_ZONE            0.1000000
+! IPO LeadPos
+ROB_IPO_LEAD_POS          2
+! IPO LIN_ORI_MODE
+ROB_IPO_LIN_ORI_MODE      0
+! IPO CIRC_ORI_MODE
+ROB_IPO_CIRC_ORI_MODE      0
+! IPO CIRC_ORI_IPO_MODE
+ROB_IPO_CIRC_ORI_IPO_MODE      1
+! Rotation Notation RxRyRz
+ROB_ROT_IDX     1
+! Controller EASY-ROB, Program Interpreter ID
+ROB_CNTRL       1 0
+! move base: pass. Jnt.to move base
+ROB_PJNTTMB             0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+! --- Syntax ---
+! REF_SYS_TRACK   Ref_Type Grp_Idx Unique_Robot_ID
+!    Ref_Type = [1-REF_NO_REF, 2-REF_BASE, 3-REF_TOOL, 4-REF_WORLD, 5-REF_WOBJ, 6-REF_TAG, 7-REF_CAD, 8-REF_TIP, 9-REF_JNT, 10-REF_GRAB, 11-REF_AUX]
+!    Grp_Idx  = [-1-UNDEF_GRP, 0-ROBOT_GRP, 1-TOOL_GRP, 2-BODY_GRP]
+!    Unique_Robot_ID
+! REF_SYS_TRACK_NAME  name  jnt_idx
+!     name    = [Name of Reference]
+!     jnt_idx = [>=0 - active joints, <0 - passive joints]
+!
+! REF_SYS_DEVICE      -> REF_SYS_TRACK
+! REF_SYS_DEVICE_NAME -> REF_SYS_TRACK_NAME
+! REF_SYS_DEVICE_SYNC -> REF_SYS_TRACK
+! REF_SYS_DEVICE_SIDX jnt_sync_idx for each active Jnt
+! --- End Syntax ---
+ROB_REF_SYS_TRACK         2 -1 0
+ROB_REF_SYS_TRACK_NAME    REF_BASE 0
+ROB_REF_SYS_DEVICE        4 -1 0
+ROB_REF_SYS_DEVICE_NAME   REF_WORLD 0
+ROB_REF_SYS_DEVICE_SYNC   1 0 0
+ROB_REF_SYS_DEVICE_SIDX      0
+!Tol [deg], Tol [mm], Number of Iterations
+ROB_NUM_INV_TOL         0.1000000    0.1000000 150
+ROB_NUM_INV_MASK        1.0000000    1.0000000    1.0000000    1.0000000    1.0000000    1.0000000
+ROB_NUM_INV_WEIGHT      1.0000000
+! Reference Kinematics 0- REF_KIN_ID_UNDEF, 1-REF_KIN_ID_RRR_RRR, 2-REF_KIN_ID_RRR_RRR_BL, 3-REF_KIN_ID_SCARA, 4-REF_KIN_ID_GANTRY
+! ID num_dof num_configs type direction SID
+ROB_NRK_ID           0 0 0 - - 0
+ENDROBATTRIB
+ROBBODYS
+! --- Syntax ---
+! STATUS          grab[0,1,Unique_ID] ax_idx[0..dof] visible[0,1] invert[0,1] collision[0-off,1-concave,2-convex,3-bbox,4-disabled] show_name[0,1] bface_cull[0,1] show_normals[0,1] show_mesh[0,1] show_edges[0,1] show_transparent [0,1]
+! QUADER          name color render lx ly   lz   transparency collision_tolerance
+! PYRAMIDE        name color render lx ly   lz   dx    dy   transparency collision_tolerance
+! PYRAMIDENST     name color render lx ly   lz   lx2   ly2   dx    dy   transparency collision_tolerance
+! ZYLINDER        name color render r1 h1   r2   h2    ang   skal1 skal2 dx dy   transparency collision_tolerance
+! KEGEL           name color render r1 h1   skal dx    dy    ang   transparency collision_tolerance
+! KUGEL           name color render r  skal ang  beta1 beta2   transparency collision_tolerance
+! IGP             name color render IGP-Partfile xscal yscal zscal   transparency collision_tolerance
+! STL             name color render STL-Partfile xscal yscal zscal   transparency collision_tolerance
+! 3DS             name color render 3DS-Partfile xscal yscal zscal   transparency collision_tolerance
+! color=[1..15], render=[0=SMOOTH,1=WIRE,2=BBFLAT,3=BBWIRE,4=INVIS,5=POINTS,6=FLAT]
+! --- End Syntax ---
+!
+STATUS       0 0 1 0 0 0 1 0 0 0 0
+REFPOS                  0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+POS                     0.0000000    0.0000000    0.1500000    0.0000000    0.0000000    0.0000000
+IGP          PLATTE-MESSKUGEL   6   0 PLATTE-MESSKUGEL.IGP    1.00000    1.00000    1.00000    1.0    0.00000
+!
+STATUS       0 0 1 0 1 0 1 0 0 0 0
+REFPOS                  0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+POS                     0.2500000   -0.1500000    0.0000000    0.0000000    0.0000000   90.0000000
+QUADER       KOFFER   7   0    0.35000    0.50000    0.15000    1.0    0.00000
+ENDROBBODYS
+!
+TOOLFILE V 6.6
+! C:\Program Files\EASY-ROB\ApplicationLib\Robot-Calibration\
+! L1195905-6 6
+! tool transformation
+tool                    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+TOOLBODYS
+! --- Syntax ---
+! STATUS          grab[0,1,Unique_ID] ax_idx[0..dof] visible[0,1] invert[0,1] collision[0-off,1-concave,2-convex,3-bbox,4-disabled] show_name[0,1] bface_cull[0,1] show_normals[0,1] show_mesh[0,1] show_edges[0,1] show_transparent [0,1]
+! QUADER          name color render lx ly   lz   transparency collision_tolerance
+! PYRAMIDE        name color render lx ly   lz   dx    dy   transparency collision_tolerance
+! PYRAMIDENST     name color render lx ly   lz   lx2   ly2   dx    dy   transparency collision_tolerance
+! ZYLINDER        name color render r1 h1   r2   h2    ang   skal1 skal2 dx dy   transparency collision_tolerance
+! KEGEL           name color render r1 h1   skal dx    dy    ang   transparency collision_tolerance
+! KUGEL           name color render r  skal ang  beta1 beta2   transparency collision_tolerance
+! IGP             name color render IGP-Partfile xscal yscal zscal   transparency collision_tolerance
+! STL             name color render STL-Partfile xscal yscal zscal   transparency collision_tolerance
+! 3DS             name color render 3DS-Partfile xscal yscal zscal   transparency collision_tolerance
+! color=[1..15], render=[0=SMOOTH,1=WIRE,2=BBFLAT,3=BBWIRE,4=INVIS,5=POINTS,6=FLAT]
+! --- End Syntax ---
+ENDTOOLBODYS
+!
+! END TOOLFILE  2932348824
+! END ROBOTFILE  3213185920
+ROBOTFILE V 6.6
+! Z:\Desktop-Win\
+! L1195905-6 6
+! robotname RV_12SL Unique_ID
+name         RV_12SL 198272484
+kin_id       10 UNIV_ROB DH_ROB
+type_dir_chain     RRRRRR ZYYXYX CCCCCC
+num_configs  8
+! Inverse kin_number  kin_user_data_file_name Invkin_Sub_ID
+invkin_no    116 NULL 0
+kin_dof      6 12 12
+! lz
+lenghts                 0.1220000    0.5600000    0.0800000    0.0000000    0.0000000    0.0000000
+! lx
+offsets1                0.1500000    0.0000000    0.4200000    0.2500000    0.0680000    0.0290000
+! ly
+offsets2                0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+! rot_x
+ROT_X                   0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+! rot_y
+ROT_Y                   0.0000000    0.0000000    0.0000000    0.0000000    0.0000000   89.9999976
+! rot_z
+ROT_Z                   0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+!
+!Passive Joints
+passiv_jnts 0
+!End Passive Joints
+!
+! base to Joint 1
+bT0                     0.0000000    0.0000000    0.3280000    0.0000000    0.0000000    0.0000000
+! singularity tolerances
+sing_tol                0.0050000    0.1000000
+! joint offsets
+joint_offsets           0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+! sign
+verpolt                   1      1      1      1      1      1
+config      1
+! config solution IDs
+cnfg_soln                 0      4      2      6      1      5      3      7
+! world to basis
+wTb                    -0.6000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+! joint start_location
+q                       0.0000020    0.0000030    0.0000030    0.0000020   44.9999886   -0.0000040
+! travel range min
+swe_min              -180.0000000 -180.0000000 -180.0000000 -180.0000000 -180.0000000 -180.0000000
+! travel range max
+swe_max               180.0000000  180.0000000  180.0000000  180.0000000  180.0000000  180.0000000
+ROBATTRIB
+! Robot Type
+ROB_ROBOT_TYPE            2
+! Robot enable  1-Enabled 0-Disabled
+ROB_ROBOT_ENABLED         1
+! Robot render  0-Visible 4-Invisible
+ROB_ROBOT_RENDER          0
+! Tool render  0-Visible 4-Invisible
+ROB_TOOL_RENDER           0
+! Robot Collision  1-robot is in collision queue
+ROB_ROBOT_COLLISION       1
+! Tool Collision  1-tool is in collision queue
+ROB_TOOL_COLLISION        1
+! Robot Reference Collision  1-collision chk vs. reference device
+ROB_ROBOT_REF_COLLISION      0
+! travel range calc
+ROB_SWE_CALC              0
+! Jnt 1
+ROB_SWE_MIN_CALC 1 =SWEN(1)
+ROB_SWE_MAX_CALC 1 =SWEP(1)
+! Jnt 2
+ROB_SWE_MIN_CALC 2 =SWEN(2)
+ROB_SWE_MAX_CALC 2 =SWEP(2)
+! Jnt 3
+ROB_SWE_MIN_CALC 3 =SWEN(3)
+ROB_SWE_MAX_CALC 3 =SWEP(3)
+! Jnt 4
+ROB_SWE_MIN_CALC 4 =SWEN(4)
+ROB_SWE_MAX_CALC 4 =SWEP(4)
+! Jnt 5
+ROB_SWE_MIN_CALC 5 =SWEN(5)
+ROB_SWE_MAX_CALC 5 =SWEP(5)
+! Jnt 6
+ROB_SWE_MIN_CALC 6 =SWEN(6)
+ROB_SWE_MAX_CALC 6 =SWEP(6)
+! Robot Cartesian active, passive Jnt Idx Bitfield
+CART_LIMIT_JNT_IDX   0x007f 0x0000
+! Robot Cartesian Space Limits Min
+CART_LIMIT_MIN          0.0000000    0.0000000    0.0000000
+! Robot Cartesian Space Limits Max
+CART_LIMIT_MAX          0.0000000    0.0000000    0.0000000
+! active Jnt achs_T0_last
+! Extended Attributes: Backlink Axis_CouplingA2A3 CounterWeight [-1 or 2- undef, 0-No, 1-Yes]
+ROB_EXT_ATTRIB            2 2 2
+! Turn interval [deg, m]
+ROB_TURN_INTERVAL       0.0000000    0.0000000    0.0000000   90.0000000   90.0000000   90.0000000
+! Turn offset [deg, m]
+ROB_TURN_OFFSET         0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+! Ext. TCP
+ROB_EXT_TCP             0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+ROB_EXT_TCP_BASE        0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+! Number Tools, current Tool
+ROB_NUM_TOOL              1 1
+! Tool name
+ROB_TOOL_NAME        TOOL_1
+! Tool
+ROB_TOOL                0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+! Number Homepositions, current Homeposition
+ROB_NUM_HOMEPOS           1 1
+! Homepos name
+ROB_HOMEPOS_NAME     HOME_1
+! home position [deg, m]
+ROB_HOMEPOS             0.0000016    0.0000012    0.0000012    0.0000031    0.0000026   -0.0000031
+! Joint name
+ROB_JOINT_NAME       Joint_1 Joint_2 Joint_3 Joint_4 Joint_5 Joint_6
+! Configuration name
+ROB_CONFIG_NAME      Config_1 Config_2 Config_3 Config_4 Config_5 Config_6 Config_7 Config_8
+! Number Kin_User_Data
+ROB_NUM_KIN_USRD         12
+! Kin. User Data Name
+ROB_KIN_USRD_NAME    KUD_1_1 KUD_1_2 KUD_1_3 KUD_1_4 KUD_1_5 KUD_1_6 KUD_1_7 KUD_1_8 KUD_1_9 KUD_1_10 KUD_1_11 KUD_1_12
+! Kin. User Data [deg,mm]
+ROB_KIN_USRD            0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+! Kin. User Data Name
+ROB_KIN_USRD_NAME    KUD_2_1 KUD_2_2 KUD_2_3 KUD_2_4 KUD_2_5 KUD_2_6 KUD_2_7 KUD_2_8 KUD_2_9 KUD_2_10 KUD_2_11 KUD_2_12
+! Kin. User Data [deg,mm]
+ROB_KIN_USRD            0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+! Kin. User Data Name
+ROB_KIN_USRD_NAME    KUD_3_1 KUD_3_2 KUD_3_3 KUD_3_4 KUD_3_5 KUD_3_6 KUD_3_7 KUD_3_8 KUD_3_9 KUD_3_10 KUD_3_11 KUD_3_12
+! Kin. User Data [deg,mm]
+ROB_KIN_USRD            0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+! Kin. User Data Name
+ROB_KIN_USRD_NAME    KUD_4_1 KUD_4_2 KUD_4_3 KUD_4_4 KUD_4_5 KUD_4_6 KUD_4_7 KUD_4_8 KUD_4_9 KUD_4_10 KUD_4_11 KUD_4_12
+! Kin. User Data [deg,mm]
+ROB_KIN_USRD            0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+! Kin. User Data Name
+ROB_KIN_USRD_NAME    KUD_5_1 KUD_5_2 KUD_5_3 KUD_5_4 KUD_5_5 KUD_5_6 KUD_5_7 KUD_5_8 KUD_5_9 KUD_5_10 KUD_5_11 KUD_5_12
+! Kin. User Data [deg,mm]
+ROB_KIN_USRD            0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+! Kin. User Data Name
+ROB_KIN_USRD_NAME    KUD_6_1 KUD_6_2 KUD_6_3 KUD_6_4 KUD_6_5 KUD_6_6 KUD_6_7 KUD_6_8 KUD_6_9 KUD_6_10 KUD_6_11 KUD_6_12
+! Kin. User Data [deg,mm]
+ROB_KIN_USRD            0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+! Kin. User Data Name
+ROB_KIN_USRD_NAME    KUD_7_1 KUD_7_2 KUD_7_3 KUD_7_4 KUD_7_5 KUD_7_6 KUD_7_7 KUD_7_8 KUD_7_9 KUD_7_10 KUD_7_11 KUD_7_12
+! Kin. User Data [deg,mm]
+ROB_KIN_USRD            0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+! Kin. User Data Name
+ROB_KIN_USRD_NAME    KUD_8_1 KUD_8_2 KUD_8_3 KUD_8_4 KUD_8_5 KUD_8_6 KUD_8_7 KUD_8_8 KUD_8_9 KUD_8_10 KUD_8_11 KUD_8_12
+! Kin. User Data [deg,mm]
+ROB_KIN_USRD            0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+! Kin. User Data Name
+ROB_KIN_USRD_NAME    KUD_9_1 KUD_9_2 KUD_9_3 KUD_9_4 KUD_9_5 KUD_9_6 KUD_9_7 KUD_9_8 KUD_9_9 KUD_9_10 KUD_9_11 KUD_9_12
+! Kin. User Data [deg,mm]
+ROB_KIN_USRD            0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+! Kin. User Data Name
+ROB_KIN_USRD_NAME    KUD_10_1 KUD_10_2 KUD_10_3 KUD_10_4 KUD_10_5 KUD_10_6 KUD_10_7 KUD_10_8 KUD_10_9 KUD_10_10 KUD_10_11 KUD_10_12
+! Kin. User Data [deg,mm]
+ROB_KIN_USRD            0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+! Kin. User Data Name
+ROB_KIN_USRD_NAME    KUD_11_1 KUD_11_2 KUD_11_3 KUD_11_4 KUD_11_5 KUD_11_6 KUD_11_7 KUD_11_8 KUD_11_9 KUD_11_10 KUD_11_11 KUD_11_12
+! Kin. User Data [deg,mm]
+ROB_KIN_USRD            0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+! Kin. User Data Name
+ROB_KIN_USRD_NAME    KUD_12_1 KUD_12_2 KUD_12_3 KUD_12_4 KUD_12_5 KUD_12_6 KUD_12_7 KUD_12_8 KUD_12_9 KUD_12_10 KUD_12_11 KUD_12_12
+! Kin. User Data [deg,mm]
+ROB_KIN_USRD            0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+! v_max [deg/s, m/s]
+ROB_V_MAX             180.0000000  180.0000000  180.0000000  180.0000000  180.0000000  180.0000000
+! a_max [deg/s^2, m/s^2]
+ROB_A_MAX             360.0000000  360.0000000  360.0000000  360.0000000  360.0000000  360.0000000
+! t_max [Nm, N]
+ROB_T_MAX              15.0000000   15.0000000   15.0000000   15.0000000   15.0000000   15.0000000
+! vx_max [m/s]
+ROB_VX_MAX              1.0000000
+! vx_ori_max [deg/s]
+ROB_VX_ORI_MAX        180.0000000
+! ax_max [m/s^2]
+ROB_AX_MAX              2.0000000
+! ax_ori_max [deg/s^2]
+ROB_AX_ORI_MAX        360.0000000
+! dyn_cntrl_fct
+ROB_DYN_CNTR              0
+! dyn_model_fct
+ROB_DYN_MODE              0
+! gear ratio
+ROB_N                  50.0000000   50.0000000   50.0000000   50.0000000   50.0000000   50.0000000
+! T_base
+ROB_T_BASE              2.7419357    2.7419357    2.7419357    2.7419357    2.7419357    2.7419357
+! Inertia base
+ROB_INERTIA             0.0051000    0.0051000    0.0051000    0.0051000    0.0051000    0.0051000
+! Damping base
+ROB_DAMPING             0.0018600    0.0018600    0.0018600    0.0018600    0.0018600    0.0018600
+! vz1_v
+ROB_VZ1_V             537.6343994  537.6343994  537.6343994  537.6343994  537.6343994  537.6343994
+! vz1_a
+ROB_VZ1_A               0.9981781    0.9981781    0.9981781    0.9981781    0.9981781    0.9981781
+! KPP
+ROB_KPP                 7.4429770    7.4429770    7.4429770    7.4429770    7.4429770    7.4429770
+! KPV
+ROB_KPV                 0.1469400    0.1469400    0.1469400    0.1469400    0.1469400    0.1469400
+! KIV
+ROB_KIV                29.5457897   29.5457897   29.5457897   29.5457897   29.5457897   29.5457897
+! AUX1
+ROB_AUX1                1.0000000    1.0000000    1.0000000    1.0000000    1.0000000    1.0000000
+! AUX2
+ROB_AUX2                0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+! AUX3
+ROB_AUX3                0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+! ipo_jnt_fct
+ROB_IPO_JNT               0
+! ipo_cp_fct
+ROB_IPO_CP                0
+! ipo_circ_fct
+ROB_IPO_CIRC              0
+! DT_SYS [s]
+ROB_DT_SYS              0.0050000
+! DT_CNTRL [s]
+ROB_DT_CNTRL            0.0100000
+! DT_IPO [s]
+ROB_DT_IPO              0.0100000
+! IPO LEAD [s]
+ROB_IPO_LEAD            0.0000000
+! IPO LAG [s]
+ROB_IPO_LAG             0.0000000
+! IPO Vq [deg/s], Vq_Ov []
+ROB_IPO_VQ             20.0000000   11.1111107
+! IPO Vqe [deg/s]
+ROB_IPO_VQE             0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+! IPO Vx [m/s]
+ROB_IPO_VX              0.1000000
+! IPO Vxe [m/s]
+ROB_IPO_VXE             0.0000000
+! IPO Aq [deg/s^2]
+ROB_IPO_AQ             40.0000000
+! IPO Ax [m/s^2]
+ROB_IPO_AX              1.5000000
+! IPO Ov_Pro []
+ROB_IPO_OV_PRO        100.0000000
+! IPO Vq_Axis [deg/s, m/s]
+ROB_IPO_VQ_AXIS        20.0000000   20.0000000   20.0000000   20.0000000   20.0000000   20.0000000
+! IPO Aq_Axis [deg/s^2, m/s^2]
+ROB_IPO_AQ_AXIS        40.0000000   40.0000000   40.0000000   40.0000000   40.0000000   40.0000000
+! IPO Aq_Decel_Axis [deg/s^2, m/s^2]
+ROB_IPO_AQ_DECEL_AXIS   40.0000000   40.0000000   40.0000000   40.0000000   40.0000000   40.0000000
+! IPO VX_ORI [deg/s]
+ROB_IPO_VX_ORI         20.0000000
+! IPO VXE_ORI [deg/s]
+ROB_IPO_VXE_ORI         0.0000000
+! IPO AX_ORI [deg/s]
+ROB_IPO_AX_ORI         40.0000000
+! IPO AQE [deg/s^2]
+ROB_IPO_AQE            40.0000000
+! IPO AXE [m/s^2]
+ROB_IPO_AXE             1.5000000
+! IPO AXE_ORI [deg/s^2]
+ROB_IPO_AXE_ORI        40.0000000
+! IPO Zone [mm]
+ROB_IPO_ZONE            0.1000000
+! IPO LeadPos
+ROB_IPO_LEAD_POS          2
+! IPO LIN_ORI_MODE
+ROB_IPO_LIN_ORI_MODE      0
+! IPO CIRC_ORI_MODE
+ROB_IPO_CIRC_ORI_MODE      0
+! IPO CIRC_ORI_IPO_MODE
+ROB_IPO_CIRC_ORI_IPO_MODE      1
+! Rotation Notation RzRyRx
+ROB_ROT_IDX     2
+! Controller EASY-ROB, Program Interpreter ID
+ROB_CNTRL       1 0
+! move base: pass. Jnt.to move base
+ROB_PJNTTMB             0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+! --- Syntax ---
+! REF_SYS_TRACK   Ref_Type Grp_Idx Unique_Robot_ID
+!    Ref_Type = [1-REF_NO_REF, 2-REF_BASE, 3-REF_TOOL, 4-REF_WORLD, 5-REF_WOBJ, 6-REF_TAG, 7-REF_CAD, 8-REF_TIP, 9-REF_JNT, 10-REF_GRAB, 11-REF_AUX]
+!    Grp_Idx  = [-1-UNDEF_GRP, 0-ROBOT_GRP, 1-TOOL_GRP, 2-BODY_GRP]
+!    Unique_Robot_ID
+! REF_SYS_TRACK_NAME  name  jnt_idx
+!     name    = [Name of Reference]
+!     jnt_idx = [>=0 - active joints, <0 - passive joints]
+!
+! REF_SYS_DEVICE      -> REF_SYS_TRACK
+! REF_SYS_DEVICE_NAME -> REF_SYS_TRACK_NAME
+! REF_SYS_DEVICE_SYNC -> REF_SYS_TRACK
+! REF_SYS_DEVICE_SIDX jnt_sync_idx for each active Jnt
+! --- End Syntax ---
+ROB_REF_SYS_TRACK         9 0 0
+ROB_REF_SYS_TRACK_NAME    REF_JNT -5
+ROB_REF_SYS_DEVICE        4 -1 0
+ROB_REF_SYS_DEVICE_NAME   REF_WORLD 0
+ROB_REF_SYS_DEVICE_SYNC   1 0 0
+ROB_REF_SYS_DEVICE_SIDX      0      0      0      0      0      0
+!Tol [deg], Tol [mm], Number of Iterations
+ROB_NUM_INV_TOL         0.1000000    0.1000000 150
+ROB_NUM_INV_MASK        1.0000000    1.0000000    1.0000000    1.0000000    1.0000000    1.0000000
+ROB_NUM_INV_WEIGHT      1.0000000    1.0000000    1.0000000    1.0000000    1.0000000    1.0000000
+! Reference Kinematics 0- REF_KIN_ID_UNDEF, 1-REF_KIN_ID_RRR_RRR, 2-REF_KIN_ID_RRR_RRR_BL, 3-REF_KIN_ID_SCARA, 4-REF_KIN_ID_GANTRY
+! ID num_dof num_configs type direction SID
+ROB_NRK_ID           0 0 0 - - 0
+ENDROBATTRIB
+ROBBODYS
+! --- Syntax ---
+! STATUS          grab[0,1,Unique_ID] ax_idx[0..dof] visible[0,1] invert[0,1] collision[0-off,1-concave,2-convex,3-bbox,4-disabled] show_name[0,1] bface_cull[0,1] show_normals[0,1] show_mesh[0,1] show_edges[0,1] show_transparent [0,1]
+! QUADER          name color render lx ly   lz   transparency collision_tolerance
+! PYRAMIDE        name color render lx ly   lz   dx    dy   transparency collision_tolerance
+! PYRAMIDENST     name color render lx ly   lz   lx2   ly2   dx    dy   transparency collision_tolerance
+! ZYLINDER        name color render r1 h1   r2   h2    ang   skal1 skal2 dx dy   transparency collision_tolerance
+! KEGEL           name color render r1 h1   skal dx    dy    ang   transparency collision_tolerance
+! KUGEL           name color render r  skal ang  beta1 beta2   transparency collision_tolerance
+! IGP             name color render IGP-Partfile xscal yscal zscal   transparency collision_tolerance
+! STL             name color render STL-Partfile xscal yscal zscal   transparency collision_tolerance
+! 3DS             name color render 3DS-Partfile xscal yscal zscal   transparency collision_tolerance
+! color=[1..15], render=[0=SMOOTH,1=WIRE,2=BBFLAT,3=BBWIRE,4=INVIS,5=POINTS,6=FLAT]
+! --- End Syntax ---
+!
+STATUS       0 0 1 0 0 0 1 0 0 0 0
+REFPOS                  0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+POS                     0.0000000    0.0000000    0.0000000    0.0000000   90.0000000   90.0000000
+IGP          RV-12S_BASE   8   0 RV-12S_BASE.IGP    1.00000    1.00000    1.00000    1.0    0.00000
+!
+STATUS       0 2 1 0 0 0 1 0 0 0 0
+REFPOS                  0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+POS                     0.0000000    0.0910000    0.0000000    0.0000000   90.0000000   90.0000000
+IGP          RV-12SL_NO1ARM 2113797631   0 RV-12SL_NO1ARM.IGP    1.00000    1.00000    1.00000    1.0    0.00000
+!
+STATUS       0 4 1 0 0 0 1 0 0 0 0
+REFPOS                  0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+POS                     0.0000000    0.0000000    0.0000000    0.0000000   90.0000000   90.0000000
+IGP          RV-12S_NO2ARM 2113797631   0 RV-12S_NO2ARM.IGP    1.00000    1.00000    1.00000    1.0    0.00000
+!
+STATUS       0 5 1 0 0 0 1 0 0 0 0
+REFPOS                  0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+POS                     0.0620000    0.0000000    0.0000000    0.0000000   90.0000000   90.0000000
+IGP          RV-12S_WRIST 2113797631   0 RV-12S_WRIST.IGP    1.00000    1.00000    1.00000    1.0    0.00000
+!
+STATUS       0 6 1 0 1 0 1 0 0 0 0
+REFPOS                  0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+POS                     0.0200000    0.0000000    0.0000000    0.0000000   90.0000000    0.0000000
+IGP          RV-12S_J6_FLANGE 1044368000   0 RV-12S_J6_FLANGE.IGP    1.00000    1.00000    1.00000    1.0    0.00000
+!
+STATUS       0 4 1 0 0 0 1 0 0 0 0
+REFPOS                  0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+POS                     0.0000000   -0.0550000    0.0000000  -90.0000000  180.0000000    0.0000000
+IGP          RV-12S_NO2ARM_COVER_A 2113797631   0 RV-12S_NO2ARM_COVER_A.IGP    1.00000    1.00000    1.00000    1.0    0.00000
+!
+STATUS       0 4 1 0 0 0 1 0 0 0 0
+REFPOS                  0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+POS                     0.0000000    0.0550000    0.0000000   90.0000000  180.0000000    0.0000000
+IGP          RV-12S_NO2ARM_COVER_B 2113797631   0 RV-12S_NO2ARM_COVER_B.IGP    1.00000    1.00000    1.00000    1.0    0.00000
+!
+STATUS       0 5 1 0 0 0 1 0 0 0 0
+REFPOS                  0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+POS                     0.0620000    0.0000000    0.0000000    0.0000000   90.0000000   90.0000000
+IGP          RV-12S_J6_CRBRG_SPACER 1044368000   0 RV-12S_J6_CRBRG_SPACER.IGP    1.00000    1.00000    1.00000    1.0    0.00000
+!
+STATUS       0 3 1 0 0 0 1 0 0 0 0
+REFPOS                  0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+POS                     0.0000000    0.1055000    0.0000000    0.0000000   90.0000000   90.0000000
+IGP          RV-12S_ELBO_ASSY_ASM 2113797631   0 RV-12S_ELBO_ASSY_ASM.IGP    1.00000    1.00000    1.00000    1.0    0.00000
+!
+STATUS       0 1 1 0 0 0 1 0 0 0 0
+REFPOS                  0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+POS                     0.0000000    0.0000000    0.0000000    0.0000000   90.0000000   90.0000000
+IGP          RV-12S_SHOULDER_ASSY_ASM 2113797631   0 RV-12S_SHOULDER_ASSY_ASM.IGP    1.00000    1.00000    1.00000    1.0    0.00000
+!
+STATUS       0 3 1 0 0 0 1 0 0 0 0
+REFPOS                  0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+POS                     0.2630000    0.0000000    0.0800000    0.0000000   90.0000000   90.0000000
+IGP          RV-12SL_J4_EX_FLANGE 2113797631   0 RV-12SL_J4_EX_FLANGE.IGP    1.00000    1.00000    1.00000    1.0    0.00000
+ENDROBBODYS
+!
+TOOLFILE V 6.6
+! C:\Program Files\EASY-ROB\ApplicationLib\Robot-Calibration\
+! L1195905-6 6
+! tool transformation
+tool                    0.0792890   -0.0001020    0.0896530  -45.0000000    0.0000000   90.0000000
+TOOLBODYS
+! --- Syntax ---
+! STATUS          grab[0,1,Unique_ID] ax_idx[0..dof] visible[0,1] invert[0,1] collision[0-off,1-concave,2-convex,3-bbox,4-disabled] show_name[0,1] bface_cull[0,1] show_normals[0,1] show_mesh[0,1] show_edges[0,1] show_transparent [0,1]
+! QUADER          name color render lx ly   lz   transparency collision_tolerance
+! PYRAMIDE        name color render lx ly   lz   dx    dy   transparency collision_tolerance
+! PYRAMIDENST     name color render lx ly   lz   lx2   ly2   dx    dy   transparency collision_tolerance
+! ZYLINDER        name color render r1 h1   r2   h2    ang   skal1 skal2 dx dy   transparency collision_tolerance
+! KEGEL           name color render r1 h1   skal dx    dy    ang   transparency collision_tolerance
+! KUGEL           name color render r  skal ang  beta1 beta2   transparency collision_tolerance
+! IGP             name color render IGP-Partfile xscal yscal zscal   transparency collision_tolerance
+! STL             name color render STL-Partfile xscal yscal zscal   transparency collision_tolerance
+! 3DS             name color render 3DS-Partfile xscal yscal zscal   transparency collision_tolerance
+! color=[1..15], render=[0=SMOOTH,1=WIRE,2=BBFLAT,3=BBWIRE,4=INVIS,5=POINTS,6=FLAT]
+! --- End Syntax ---
+!
+STATUS       0 0 1 0 0 0 1 0 0 0 0
+REFPOS                  0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+POS                     0.1243670    0.0000000    0.0483140    0.0000000  -90.0000000   90.0000000
+IGP          MESS_02_OHNE  15   0 MESS_02_OHNE.IGP    0.04074    0.04074    0.04074    1.0    0.00000
+!
+STATUS       0 0 1 0 0 0 1 0 0 0 0
+REFPOS                  0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+POS                     0.0792890   -0.0001020    0.0896530    0.0000000    0.0000000    0.0000000
+KUGEL        KUGEL  14   4    0.00510    1.00000  360.00000  -90.00000   90.00000    1.0    0.00000
+!
+STATUS       0 0 1 0 0 0 1 0 0 0 0
+REFPOS                  0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+POS                     0.0803670   -0.0410120    0.0483140  -45.0000000    0.0000000   90.0000000
+KEGEL        LED_1  15   4    0.01500    0.08000    1.00000    0.00000    0.00000  360.00000    1.0    0.00000
+!
+STATUS       0 0 1 0 0 0 1 0 0 0 0
+REFPOS                  0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+POS                     0.0800000    0.0415150    0.0483850   45.0000000    0.0000000  180.0000000
+KEGEL        LED_2  15   4    0.01500    0.08000    1.00000    0.00000    0.00000  360.00000    1.0    0.00000
+ENDTOOLBODYS
+!
+! END TOOLFILE  2768397768
+! END ROBOTFILE  556602076
+PRGFILE
+! Program file for 'ACCESSORY-ROBOT', Program Interpreter ID, [Mimic file] [UserKey]
+Program      NULL 0 NULL NULL
+! END PRGFILE  906042492
+PRGFILE
+! Program file for 'RV_12SL', Program Interpreter ID, [Mimic file] [UserKey]
+Program      NULL 0 NULL NULL
+! END PRGFILE  3973971544
+RECFILE
+Recording    NULL
+! END RECFILE  4171271236
+VIEWFILE V 6.6
+! C:\Program Files\EASY-ROB\EASY-ROB x64\Proj\my_view.vie
+! L1195905-6 6
+! zoompkt in basis
+bz_f                    0.1000000   -2.0000000    0.6000000
+! lichtpkt in basis
+bl_f                    0.0000000   -4.0000000    1.0000000
+! Skalierwert
+skal                    0.3000000
+! Skalierwert Aenderung min
+dskal_min               0.0500000
+! Skalierwert Aenderung max
+dskal_max               0.2500000
+! Rotations Aenderung [deg]
+rot_dq                  4.9999981
+! Transl. Aenderung [m]
+dbAs_p                  0.1000000
+! Zoompkt Aenderung [m]
+dbz_f                   0.0500000
+! Lichtpkt Aenderung [m]
+dbl_f                   0.0500000
+! grafik nach basis
+gAb                     0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+! delta_frame basis nach 'basis
+Rot                    -0.5542728    0.0301221    0.0230983   23.4999218    0.0000000  -27.4999428
+! END VIEWFILE  1321791248
+BODYSFILE V 6.6
+! C:\Program Files\EASY-ROB\EASY-ROB x64\Proj\my_bodys.bod
+! L1195905-6 6
+BODYBODYS
+! --- Syntax ---
+! STATUS          grab[0,1,Unique_ID] ax_idx[0..dof] visible[0,1] invert[0,1] collision[0-off,1-concave,2-convex,3-bbox,4-disabled] show_name[0,1] bface_cull[0,1] show_normals[0,1] show_mesh[0,1] show_edges[0,1] show_transparent [0,1]
+! QUADER          name color render lx ly   lz   transparency collision_tolerance
+! PYRAMIDE        name color render lx ly   lz   dx    dy   transparency collision_tolerance
+! PYRAMIDENST     name color render lx ly   lz   lx2   ly2   dx    dy   transparency collision_tolerance
+! ZYLINDER        name color render r1 h1   r2   h2    ang   skal1 skal2 dx dy   transparency collision_tolerance
+! KEGEL           name color render r1 h1   skal dx    dy    ang   transparency collision_tolerance
+! KUGEL           name color render r  skal ang  beta1 beta2   transparency collision_tolerance
+! IGP             name color render IGP-Partfile xscal yscal zscal   transparency collision_tolerance
+! STL             name color render STL-Partfile xscal yscal zscal   transparency collision_tolerance
+! 3DS             name color render 3DS-Partfile xscal yscal zscal   transparency collision_tolerance
+! color=[1..15], render=[0=SMOOTH,1=WIRE,2=BBFLAT,3=BBWIRE,4=INVIS,5=POINTS,6=FLAT]
+! --- End Syntax ---
+ENDBODYBODYS
+!
+! END BODYSFILE  3281663864
+TAGFILE V 6.6
+! C:\Program Files\EASY-ROB\EASY-ROB x64\Proj\my_tags
+! PATH_NAME path_name [0-invisible,1-visible] [Path Owner: unique_Robot_ID 0-disabled,1-enabled]
+! WORK_NAME workobject_name
+! TAG_WOBJ  X Y Z in [m]  Rx Ry Rz in [deg]
+! REF_SYS_PATH   1-REF_NO_REF [2-REF_BASE,3-REF_TOOL,4-REF_WORLD,5-REF_WOBJ,6-REF_TAG,7-REF_CAD,8-REF_TIP,9-REF_JNT] Grp_Idx Unique_Robot_ID
+! REF_SYS_PATH_NAME  name (where path is attached to) [jnt_idx (if REF_JNT)]
+! TAG_ATTRIB prefix motype[0-def,1-ptp,2-lin,3-circ,4-via] render[0-def,1-app_z,2-app_x,3-app_y,4-point,5-invisible]
+!            speed_ptp[0-def,[rad]] speed_cp[0-def,[m]] speed_ori [0-def,[rad]]
+!            confdata[0-def,1..numconfigs]
+!            extax[extax: #eax(number of extax) extax_type['R-rot..T-trans'] eaxjnt1 eax1...eaxjntn eaxn]
+! TAG_ATTRIB_EX  zone[-1-def,0-100] accel_ptp[0-def,[rad]] accel_cp[0-def,[m]] accel_ori [0-def,[rad]]
+!            ov_pro[0-200] speed_ptp_ov[0-200] speed_cp_ov[0-200] speed_ori_ov[0-200] accel_ptp_ov[0-200] accel_cp_ov[0-200] accel_ori_ov[0-200]
+!            auto_accel[0-def, 1-ON] acc_set_acc[100-def [20-100]] acc_set_ramp[100-def [20-100]]
+!            no_decel[0-def, 1-enabled] leading_pos[2-def, 1-Pos, 2-VAR, 0-Ori] lead_time[0-def [s]] lag_time[0-def [s]]
+!            lin_ori_mode[4-def, 0-LIN_VARIABLE, 1-LIN_FIX, 2-LIN_TANGENTIAL, 3-LIN_AUX, 4-LIN_QUATERNION]
+!            circ_ori_mode[5-def, 0-CIRC_VARIABLE, 1-CIRC_FIX, 2-CIRC_TANGENTIAL, 3-CIRC_AUX, 4-CIRC_VARIABLE2, 5-CIRC_QUATERNION]
+! TAG_SPEED_AX_OV  speed override for each joint[0-def [0-200]]
+! TAG_ACCEL_AX_OV  accel override for each joint[0-def [0-200]]
+! TAG_TURN_AX      turn_use [0-def,1-ON] turn for each joint[0-def, turn_value]
+! TAG_USR_STRING   user defined Tag string
+! TAG no. name color size X Y Z in [m] Rx Ry Rz in [deg]
+! L1195905-6 6
+! ---------- Path index 1  number of tags 121 ----------
+PATH_NAME    PATH01 1 0 0
+WOBJ_NAME    WOBJ01
+! Workobject frame
+TAG_WOBJ                0.1135750   -0.4193000    0.0030000    0.0000000    0.0000000   90.0000000
+REF_SYS_PATH         7 0 198272483
+REF_SYS_PATH_NAME    PLATTE-MESSKUGEL 0
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    1     1 2143865087  0.03 0.385094 0.050596 0.424819 -132.778534 6.806468 -107.773689
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    2     2 2143865087  0.03 0.563010 -0.000102 0.496915 75.489182 136.920471 20.753576
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    3     3 2143865087  0.03 0.415944 0.110737 0.280634 -133.029938 -12.290632 -103.648979
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    4     4 2143865087  0.03 0.416564 0.113812 0.231236 -133.029938 -12.290625 -103.649040
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    5     5 2143865087  0.03 0.415944 0.110737 0.280634 -133.029938 -12.290625 -103.649040
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    6     6 2143865087  0.03 0.397999 0.105056 0.276253 -127.236946 2.486575 -119.161949
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    7     7 2143865087  0.03 0.416556 0.113811 0.231209 -127.236961 2.486569 -119.161949
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    8     8 2143865087  0.03 0.397999 0.105056 0.276253 -127.236946 2.486580 -119.161949
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    9     9 2143865087  0.03 0.397139 0.112874 0.276724 -136.327118 4.522018 -118.518730
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    10    10 2143865087  0.03 0.416557 0.113815 0.231204 -136.327118 4.522019 -118.518730
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    11    11 2143865087  0.03 0.397138 0.112874 0.276724 -136.327118 4.522017 -118.518730
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    12    12 2143865087  0.03 0.399537 0.120364 0.277220 -145.217880 3.364019 -115.363113
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    13    13 2143865087  0.03 0.416558 0.113818 0.231204 -145.217880 3.364017 -115.363121
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    14    14 2143865087  0.03 0.399537 0.120364 0.277220 -145.217880 3.364021 -115.363113
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    15    15 2143865087  0.03 0.404780 0.126230 0.277655 -152.101181 -1.143017 -110.888283
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    16    16 2143865087  0.03 0.416559 0.113821 0.231209 -152.101181 -1.143008 -110.888283
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    17    17 2143865087  0.03 0.404780 0.126230 0.277655 -152.101181 -1.143013 -110.888283
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    18    18 2143865087  0.03 0.411963 0.129459 0.277955 -155.441238 -8.121366 -105.987793
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    19    19 2143865087  0.03 0.416562 0.113823 0.231218 -155.441238 -8.121357 -105.987854
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    20    20 2143865087  0.03 0.411963 0.129459 0.277955 -155.441238 -8.121363 -105.987793
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    21    21 2143865087  0.03 0.419843 0.129492 0.278068 25.606331 -164.033890 79.121429
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    22    22 2143865087  0.03 0.416566 0.113825 0.231230 25.606331 -164.033890 79.121429
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    23    23 2143865087  0.03 0.419843 0.129492 0.278068 25.606331 -164.033890 79.121429
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    24    24 2143865087  0.03 0.427059 0.126322 0.277973 -148.902740 -22.830963 -95.503036
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    25    25 2143865087  0.03 0.416572 0.113824 0.231242 -148.902740 -22.830940 -95.503036
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    26    26 2143865087  0.03 0.427059 0.126322 0.277973 -148.902740 -22.830963 -95.503036
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    27    27 2143865087  0.03 0.432363 0.120497 0.277688 -139.934097 -27.140743 -90.333389
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    28    28 2143865087  0.03 0.416578 0.113820 0.231253 -139.934097 -27.140760 -90.333328
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    29    29 2143865087  0.03 0.432363 0.120497 0.277688 -139.934097 -27.140743 -90.333389
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    30    30 2143865087  0.03 0.434837 0.113023 0.277262 -129.594315 -28.169441 -86.782204
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    31    31 2143865087  0.03 0.416582 0.113812 0.231260 -129.594315 -28.169441 -86.782204
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    32    32 2143865087  0.03 0.434837 0.113023 0.277262 -129.594315 -28.169441 -86.782204
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    33    33 2143865087  0.03 0.434051 0.105194 0.276768 -120.324120 -26.303902 -86.419548
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    34    34 2143865087  0.03 0.416582 0.113804 0.231263 -120.324112 -26.303936 -86.419479
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    35    35 2143865087  0.03 0.434051 0.105194 0.276768 -120.324112 -26.303936 -86.419479
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    36    36 2143865087  0.03 0.430142 0.098364 0.276291 -113.752983 -22.558926 -89.757454
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    37    37 2143865087  0.03 0.416577 0.113798 0.231260 -113.752983 -22.558926 -89.757454
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    38    38 2143865087  0.03 0.430142 0.098364 0.276291 -113.752983 -22.558926 -89.757454
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    39    39 2143865087  0.03 0.423785 0.093714 0.275915 -110.492111 -17.827053 -96.030525
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    40    40 2143865087  0.03 0.416571 0.113795 0.231253 -110.492111 -17.827053 -96.030525
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    41    41 2143865087  0.03 0.423785 0.093714 0.275915 -110.492111 -17.827053 -96.030525
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    42    42 2143865087  0.03 0.416082 0.092050 0.275704 -110.548203 -12.580886 -103.725067
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    43    43 2143865087  0.03 0.416564 0.113796 0.231242 -110.548203 -12.580890 -103.725067
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    44    44 2143865087  0.03 0.416082 0.092050 0.275704 -110.548195 -12.580886 -103.725067
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    45    45 2143865087  0.03 0.408366 0.093658 0.275695 -113.648132 -7.081861 -111.107101
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    46    46 2143865087  0.03 0.416559 0.113800 0.231230 -113.648140 -7.081882 -111.107101
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    47    47 2143865087  0.03 0.408366 0.093658 0.275695 -113.648132 -7.081880 -111.107101
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    48    48 2143865087  0.03 0.401970 0.098259 0.275889 -119.388268 -1.771465 -116.608170
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    49    49 2143865087  0.03 0.416556 0.113806 0.231218 -119.388206 -1.771461 -116.608170
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    50    50 2143865087  0.03 0.401969 0.098259 0.275889 -119.388268 -1.771474 -116.608162
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    51    51 2143865087  0.03 0.382888 0.100711 0.265014 -117.394562 15.027417 -136.685486
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    52    52 2143865087  0.03 0.416558 0.113813 0.231182 -117.394508 15.027442 -136.685608
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    53    53 2143865087  0.03 0.382888 0.100711 0.265014 -117.394562 15.027417 -136.685486
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    54    54 2143865087  0.03 0.381183 0.109673 0.265543 51.916111 160.195419 44.419731
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    55    55 2143865087  0.03 0.416561 0.113816 0.231174 51.916096 160.195419 44.419701
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    56    56 2143865087  0.03 0.381183 0.109673 0.265543 51.916100 160.195419 44.419731
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    57    57 2143865087  0.03 0.381858 0.118767 0.266114 39.926662 157.754227 48.525600
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    58    58 2143865087  0.03 0.416563 0.113816 0.231171 39.926693 157.754227 48.525600
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    59    59 2143865087  0.03 0.381858 0.118767 0.266114 39.926682 157.754227 48.525600
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    60    60 2143865087  0.03 0.384866 0.127376 0.266688 27.714560 158.511887 54.577805
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    61    61 2143865087  0.03 0.416563 0.113817 0.231171 27.714563 158.511887 54.577805
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    62    62 2143865087  0.03 0.384866 0.127376 0.266688 27.714560 158.511887 54.577805
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    63    63 2143865087  0.03 0.390004 0.134914 0.267225 16.838339 162.725113 61.074963
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    64    64 2143865087  0.03 0.416562 0.113818 0.231174 16.838339 162.725128 61.074963
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    65    65 2143865087  0.03 0.390004 0.134914 0.267225 16.838339 162.725128 61.074963
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    66    66 2143865087  0.03 0.396921 0.140867 0.267689 8.582413 169.942245 66.888512
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    67    67 2143865087  0.03 0.416561 0.113821 0.231182 8.582413 169.942245 66.888512
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    68    68 2143865087  0.03 0.396921 0.140867 0.267689 8.582415 169.942245 66.888519
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    69    69 2143865087  0.03 0.405148 0.144830 0.268049 3.561871 179.283051 71.724792
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    70    70 2143865087  0.03 0.416561 0.113825 0.231192 3.561874 179.283051 71.724792
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    71    71 2143865087  0.03 0.405148 0.144830 0.268049 3.561870 179.283051 71.724792
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    72    72 2143865087  0.03 0.414126 0.146532 0.268280 1.964941 -170.245468 75.961517
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    73    73 2143865087  0.03 0.416563 0.113830 0.231205 1.964956 -170.245468 75.961517
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    74    74 2143865087  0.03 0.414126 0.146532 0.268280 1.964940 -170.245453 75.961517
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    75    75 2143865087  0.03 0.423242 0.145858 0.268367 3.944252 -159.629593 80.334000
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    76    76 2143865087  0.03 0.416568 0.113834 0.231219 3.944259 -159.629593 80.334000
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    77    77 2143865087  0.03 0.423242 0.145858 0.268367 3.944252 -159.629593 80.334000
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    78    78 2143865087  0.03 0.431877 0.142851 0.268302 9.803706 -149.885712 85.719269
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    79    79 2143865087  0.03 0.416576 0.113837 0.231234 9.803706 -149.885712 85.719269
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    80    80 2143865087  0.03 0.431877 0.142851 0.268302 9.803709 -149.885727 85.719269
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    81    81 2143865087  0.03 0.439440 0.137716 0.268092 19.820047 -142.120636 92.831421
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    82    82 2143865087  0.03 0.416586 0.113836 0.231248 19.820068 -142.120743 92.831360
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    83    83 2143865087  0.03 0.439440 0.137716 0.268092 19.820063 -142.120636 92.831421
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    84    84 2143865087  0.03 0.445417 0.130801 0.267749 -146.478897 -42.581932 -78.497833
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    85    85 2143865087  0.03 0.416596 0.113832 0.231261 -146.478897 -42.581909 -78.497833
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    86    86 2143865087  0.03 0.445417 0.130801 0.267749 -146.478897 -42.581936 -78.497833
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    87    87 2143865087  0.03 0.449398 0.122577 0.267297 -131.103607 -43.646370 -70.060699
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    88    88 2143865087  0.03 0.416604 0.113823 0.231271 -131.103607 -43.646370 -70.060699
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    89    89 2143865087  0.03 0.449398 0.122577 0.267297 -131.103607 -43.646370 -70.060745
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    90    90 2143865087  0.03 0.451111 0.113606 0.266767 -116.834358 -41.507172 -64.443687
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    91    91 2143865087  0.03 0.416609 0.113812 0.231277 -116.834351 -41.507172 -64.443672
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    92    92 2143865087  0.03 0.451111 0.113606 0.266767 -116.834358 -41.507172 -64.443680
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    93    93 2143865087  0.03 0.450439 0.104500 0.266196 -105.347893 -37.353741 -63.086296
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    94    94 2143865087  0.03 0.416610 0.113800 0.231280 -105.347893 -37.353741 -63.086327
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    95    95 2143865087  0.03 0.450439 0.104500 0.266196 -105.347893 -37.353741 -63.086296
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    96    96 2143865087  0.03 0.447426 0.095880 0.265622 -96.887932 -32.387760 -65.889824
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    97    97 2143865087  0.03 0.416606 0.113788 0.231279 -96.888000 -32.387760 -65.889870
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    98    98 2143865087  0.03 0.447426 0.095880 0.265622 -96.888000 -32.387760 -65.889824
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    99    99 2143865087  0.03 0.442280 0.088335 0.265084 -91.138313 -27.398142 -72.050613
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    100   100 2143865087  0.03 0.416598 0.113779 0.231275 -91.138313 -27.398142 -72.050613
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    101   101 2143865087  0.03 0.442280 0.088335 0.265084 -91.138313 -27.398142 -72.050613
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    102   102 2143865087  0.03 0.435351 0.082380 0.264619 -87.796555 -22.709738 -80.639076
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    103   103 2143865087  0.03 0.416587 0.113774 0.231268 -87.796555 -22.709738 -80.639084
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    104   104 2143865087  0.03 0.435351 0.082380 0.264619 -87.796555 -22.709738 -80.639076
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    105   105 2143865087  0.03 0.427112 0.078420 0.264259 -86.674881 -18.273716 -90.754921
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    106   106 2143865087  0.03 0.416576 0.113774 0.231257 -86.674881 -18.273697 -90.754921
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    107   107 2143865087  0.03 0.427112 0.078420 0.264259 -86.674881 -18.273716 -90.754921
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    108   108 2143865087  0.03 0.418127 0.076727 0.264029 -87.619659 -13.806290 -101.525139
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    109   109 2143865087  0.03 0.416565 0.113778 0.231245 -87.619659 -13.806290 -101.525070
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    110   110 2143865087  0.03 0.418127 0.076727 0.264028 -87.619659 -13.806290 -101.525139
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    111   111 2143865087  0.03 0.409008 0.077413 0.263943 -90.440193 -8.958965 -112.087486
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    112   112 2143865087  0.03 0.416558 0.113785 0.231231 -90.440193 -8.958965 -112.087486
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    113   113 2143865087  0.03 0.409008 0.077413 0.263943 -90.440193 -8.958965 -112.087486
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    114   114 2143865087  0.03 0.400378 0.080431 0.264008 -94.919861 -3.491661 -121.604897
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    115   115 2143865087  0.03 0.416554 0.113794 0.231217 -94.919861 -3.491652 -121.604881
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    116   116 2143865087  0.03 0.400378 0.080431 0.264008 -94.919861 -3.491657 -121.604897
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    117   117 2143865087  0.03 0.392823 0.085574 0.264220 -100.898407 2.593277 -129.302597
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    118   118 2143865087  0.03 0.416553 0.113802 0.231204 -100.898407 2.593275 -129.302597
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    119   119 2143865087  0.03 0.392823 0.085574 0.264219 -100.898407 2.593271 -129.302597
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    120   120 2143865087  0.03 0.386858 0.092491 0.264563 -108.353729 8.980440 -134.506271
+TAG_ATTRIB           T_ 1 1 0.000000 0.000000 0.000000 0
+TAG_ATTRIB_EX        -1.0 0.000000 0.000000 0.000000 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0 100.0 100.0 0 2 0.000 0.000 4 5
+TAG    121   121 2143865087  0.03 0.416555 0.113809 0.231192 -108.353729 8.980457 -134.506271
+ENDTAGFILE
+CAMERAFILE V 6.6
+! C:\Program Files\EASY-ROB\EASY-ROB x64\Proj\my_cam
+! CAMERA_ENABLE    1-On [0-Off]
+! REF_SYS_CAMERA   1-REF_NO_REF [2-REF_BASE,3-REF_TOOL,4-REF_WORLD,5-REF_WOBJ,6-REF_TAG,7-REF_CAD,8-REF_TIP,9-REF_JNT] Grp_Idx Unique_Robot_ID
+! CAMERA_NAME      name (where camera is attached to) [jnt_idx (if REF_JNT)]
+! CAMERA_FOCUS     Camera_Focus Focus Focus_min Focus_max [mm]
+! CAMERA_Z_OFFSET  Camera_Z_offset z_offset z_offset_min z_offset_max [mm]
+! CAMERA_POSITION  Camera_Position X Y Z in [m]  Rx Ry Rz in [deg]
+! L1195905-6 6
+CAMERA_ENABLE 0
+REF_SYS_CAMERA       7 1 15522733
+CAMERA_NAME          MESS_02_OHNE 0
+CAMERA_FOCUS 20.000 12.251 242.546
+CAMERA_Z_OFFSET -20.000 -200.000 500.000
+! Camera Position frame
+CAMERA_POSITION         0.0300000   -0.0300000    0.0400000  -90.0000000   60.0000000   90.0000000
+ENDCAMERAFILE
+CELLATTRIB
+CELL_INFO_SHOW 1
+CELL_INFO Cell Information:  Application Robot-Calibration  'Rosy-RV12.cel'  by EASY-ROB
+ENDCELLATTRIB
+! END CELLFILE  3320967724

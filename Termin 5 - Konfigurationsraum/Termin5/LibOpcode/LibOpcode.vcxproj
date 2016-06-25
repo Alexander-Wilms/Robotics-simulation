@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{53276A60-185E-4956-A790-64810ACCD130}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>LibOpcode</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>false</UseOfMfc>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>false</UseOfMfc>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IntDir>$(SolutionDir)$(PlatformShortName)\$(Configuration)\obj\$(ProjectName)\</IntDir>
+    <OutDir>$(SolutionDir)$(PlatformShortName)\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IntDir>$(SolutionDir)$(PlatformShortName)\$(Configuration)\obj\$(ProjectName)\</IntDir>
+    <OutDir>$(SolutionDir)$(PlatformShortName)\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;BAN_OPCODE_AUTOLINK;ICE_NO_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)</AdditionalIncludeDirectories>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;BAN_OPCODE_AUTOLINK;ICE_NO_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Opcode.cpp" />
+    <ClCompile Include="OPC_BaseModel.cpp" />
+    <ClCompile Include="OPC_HybridModel.cpp" />
+    <ClCompile Include="OPC_Model.cpp" />
+    <ClCompile Include="OPC_Collider.cpp" />
+    <ClCompile Include="OPC_VolumeCollider.cpp" />
+    <ClCompile Include="OPC_AABBCollider.cpp" />
+    <ClCompile Include="OPC_LSSCollider.cpp" />
+    <ClCompile Include="OPC_OBBCollider.cpp" />
+    <ClCompile Include="OPC_PlanesCollider.cpp" />
+    <ClCompile Include="OPC_RayCollider.cpp" />
+    <ClCompile Include="OPC_SphereCollider.cpp" />
+    <ClCompile Include="OPC_TreeCollider.cpp" />
+    <ClCompile Include="OPC_AABBTree.cpp" />
+    <ClCompile Include="OPC_MeshInterface.cpp" />
+    <ClCompile Include="OPC_OptimizedTree.cpp" />
+    <ClCompile Include="OPC_TreeBuilders.cpp" />
+    <ClCompile Include="OPC_BoxPruning.cpp" />
+    <ClCompile Include="OPC_SweepAndPrune.cpp" />
+    <ClCompile Include="OPC_Picking.cpp" />
+    <ClCompile Include="Ice\IceAABB.cpp" />
+    <ClCompile Include="Ice\IceContainer.cpp" />
+    <ClCompile Include="Ice\IceHPoint.cpp" />
+    <ClCompile Include="Ice\IceIndexedTriangle.cpp" />
+    <ClCompile Include="Ice\IceMatrix3x3.cpp" />
+    <ClCompile Include="Ice\IceMatrix4x4.cpp" />
+    <ClCompile Include="Ice\IceOBB.cpp" />
+    <ClCompile Include="Ice\IcePlane.cpp" />
+    <ClCompile Include="Ice\IcePoint.cpp" />
+    <ClCompile Include="Ice\IceRandom.cpp" />
+    <ClCompile Include="Ice\IceRay.cpp" />
+    <ClCompile Include="Ice\IceRevisitedRadix.cpp" />
+    <ClCompile Include="Ice\IceSegment.cpp" />
+    <ClCompile Include="Ice\IceTriangle.cpp" />
+    <ClCompile Include="Ice\IceUtils.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Opcode.h" />
+    <ClInclude Include="OPC_BaseModel.h" />
+    <ClInclude Include="OPC_HybridModel.h" />
+    <ClInclude Include="OPC_IceHook.h" />
+    <ClInclude Include="OPC_Model.h" />
+    <ClInclude Include="OPC_Settings.h" />
+    <ClInclude Include="OPC_Collider.h" />
+    <ClInclude Include="OPC_VolumeCollider.h" />
+    <ClInclude Include="OPC_AABBCollider.h" />
+    <ClInclude Include="OPC_LSSCollider.h" />
+    <ClInclude Include="OPC_OBBCollider.h" />
+    <ClInclude Include="OPC_PlanesCollider.h" />
+    <ClInclude Include="OPC_RayCollider.h" />
+    <ClInclude Include="OPC_SphereCollider.h" />
+    <ClInclude Include="OPC_TreeCollider.h" />
+    <ClInclude Include="OPC_AABBTree.h" />
+    <ClInclude Include="OPC_Common.h" />
+    <ClInclude Include="OPC_MeshInterface.h" />
+    <ClInclude Include="OPC_OptimizedTree.h" />
+    <ClInclude Include="OPC_TreeBuilders.h" />
+    <ClInclude Include="OPC_BoxBoxOverlap.h" />
+    <ClInclude Include="OPC_LSSAABBOverlap.h" />
+    <ClInclude Include="OPC_LSSTriOverlap.h" />
+    <ClInclude Include="OPC_PlanesAABBOverlap.h" />
+    <ClInclude Include="OPC_PlanesTriOverlap.h" />
+    <ClInclude Include="OPC_RayAABBOverlap.h" />
+    <ClInclude Include="OPC_RayTriOverlap.h" />
+    <ClInclude Include="OPC_SphereAABBOverlap.h" />
+    <ClInclude Include="OPC_SphereTriOverlap.h" />
+    <ClInclude Include="OPC_TriBoxOverlap.h" />
+    <ClInclude Include="OPC_TriTriOverlap.h" />
+    <ClInclude Include="OPC_BoxPruning.h" />
+    <ClInclude Include="OPC_SweepAndPrune.h" />
+    <ClInclude Include="OPC_Picking.h" />
+    <ClInclude Include="Ice\IceAABB.h" />
+    <ClInclude Include="Ice\IceAxes.h" />
+    <ClInclude Include="Ice\IceBoundingSphere.h" />
+    <ClInclude Include="Ice\IceContainer.h" />
+    <ClInclude Include="Ice\IceFPU.h" />
+    <ClInclude Include="Ice\IceHPoint.h" />
+    <ClInclude Include="Ice\IceIndexedTriangle.h" />
+    <ClInclude Include="Ice\IceLSS.h" />
+    <ClInclude Include="Ice\IceMatrix3x3.h" />
+    <ClInclude Include="Ice\IceMatrix4x4.h" />
+    <ClInclude Include="Ice\IceMemoryMacros.h" />
+    <ClInclude Include="Ice\IceOBB.h" />
+    <ClInclude Include="Ice\IcePairs.h" />
+    <ClInclude Include="Ice\IcePlane.h" />
+    <ClInclude Include="Ice\IcePoint.h" />
+    <ClInclude Include="Ice\IcePreprocessor.h" />
+    <ClInclude Include="Ice\IceRandom.h" />
+    <ClInclude Include="Ice\IceRay.h" />
+    <ClInclude Include="Ice\IceRevisitedRadix.h" />
+    <ClInclude Include="Ice\IceSegment.h" />
+    <ClInclude Include="Ice\IceTriangle.h" />
+    <ClInclude Include="Ice\IceTrilist.h" />
+    <ClInclude Include="Ice\IceTypes.h" />
+    <ClInclude Include="Ice\IceUtils.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

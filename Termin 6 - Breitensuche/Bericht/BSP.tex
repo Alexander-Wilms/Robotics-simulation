@@ -1,0 +1,52 @@
+	\begin{subfigure}{\textwidth/\real{4.1}}
+		\center\scalebox{0.7}{\begin{tikzpicture}[tree layout]\graph[nodes={draw, circle}] {
+				a[fill,black,text=white,font=\bfseries] -> 
+				{ 
+					b -> 
+					{ d, e ->
+						h},
+					c -> 
+					{ f, g }
+				}
+			};
+			\end{tikzpicture}}
+	\end{subfigure}
+	\begin{subfigure}{\textwidth/\real{4.1}}
+		\center\scalebox{0.7}{\begin{tikzpicture}[tree layout]\graph[nodes={draw, circle}] {
+				a[fill,black,text=white,font=\bfseries] -> 
+				{ 
+					b[fill,black,text=white,font=\bfseries] -> 
+					{ d, e ->
+						h},
+					c[fill,black,text=white,font=\bfseries] -> 
+					{ f, g }
+				}
+			};
+			\end{tikzpicture}}
+	\end{subfigure}
+	\begin{subfigure}{\textwidth/\real{4.1}}
+		\center\scalebox{0.7}{\begin{tikzpicture}[tree layout]\graph[nodes={draw, circle}] {
+				a[fill,black,text=white,font=\bfseries] -> 
+				{ 
+					b[fill,black,text=white,font=\bfseries] -> 
+					{ d[fill,black,text=white,font=\bfseries], e[fill,black,text=white,font=\bfseries] ->
+						h},
+					c[fill,black,text=white,font=\bfseries] -> 
+					{ f[fill,black,text=white,font=\bfseries], g[fill,black,text=white,font=\bfseries] }
+				}
+			};
+			\end{tikzpicture}}
+	\end{subfigure}
+	\begin{subfigure}{\textwidth/\real{4.1}}
+		\center\scalebox{0.7}{\begin{tikzpicture}[tree layout]\graph[nodes={draw, circle}] {
+				a[fill,black,text=white,font=\bfseries] -> 
+				{ 
+					b[fill,black,text=white,font=\bfseries] -> 
+					{ d[fill,black,text=white,font=\bfseries], e[fill,black,text=white,font=\bfseries] ->
+						h[fill,black,text=white,font=\bfseries]},
+					c[fill,black,text=white,font=\bfseries] -> 
+					{ f[fill,black,text=white,font=\bfseries], g[fill,black,text=white,font=\bfseries] }
+				}
+			};
+			\end{tikzpicture}}
+	\end{subfigure}

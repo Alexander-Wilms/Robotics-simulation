@@ -1,0 +1,81 @@
+Lese Datensatz aus Kreisel.txt
+x 6 x 1 Vector6
+-1.747805
+44.586360
+-87.648108
+-253.032904
+107.040686
+-3.215224
+
+Pt 3 x 1 Position
+-1.747805
+44.586360
+-87.648108
+
+Ppivot 3 x 1 Position
+-253.032904
+107.040686
+-3.215224
+
+Ptest 3 x 1 Position
+-0.106450
+0.191828
+-0.098577
+
+Ptest 3 x 1 Position
+0.265225
+-0.025473
+0.190248
+
+Ptest 3 x 1 Position
+0.440082
+0.396597
+-0.212637
+
+Ptest 3 x 1 Position
+-0.063734
+0.009925
+0.164411
+
+Ptest 3 x 1 Position
+-0.424447
+-0.455783
+-0.104586
+
+Ptest 3 x 1 Position
+-0.194674
+-0.393150
+0.274089
+
+Ptest 3 x 1 Position
+0.266667
+-0.401410
+0.117099
+
+Ptest 3 x 1 Position
+0.449596
+-0.030659
+-0.052507
+
+Ptest 3 x 1 Position
+-0.085170
+0.111804
+-0.006388
+
+Ptest 3 x 1 Position
+-0.318835
+0.533644
+-0.051261
+
+Ptest 3 x 1 Position
+-0.272195
+0.298893
+-0.110683
+
+Ptest 3 x 1 Position
+0.043934
+-0.236217
+-0.109208
+
+Standardabweichung 0.443922
+Schreibe Datensatz nach Kalibrierung.txt

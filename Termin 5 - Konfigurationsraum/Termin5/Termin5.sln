@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PrismaticJoints", "PrismaticJoints\PrismaticJoints.vcxproj", "{0BB2C5FA-0A85-42B0-BA57-C14CE39804A9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FE479409-76C3-48CB-A84D-C7F001DAAD8F} = {FE479409-76C3-48CB-A84D-C7F001DAAD8F}
+		{53276A60-185E-4956-A790-64810ACCD130} = {53276A60-185E-4956-A790-64810ACCD130}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RevoluteJoints", "RevoluteJoints\RevoluteJoints.vcxproj", "{6D81292D-D7EB-43EA-8180-E3828223D346}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FE479409-76C3-48CB-A84D-C7F001DAAD8F} = {FE479409-76C3-48CB-A84D-C7F001DAAD8F}
+		{53276A60-185E-4956-A790-64810ACCD130} = {53276A60-185E-4956-A790-64810ACCD130}
+		{564A07CB-AF5F-4361-A9EA-52A25599B5DD} = {564A07CB-AF5F-4361-A9EA-52A25599B5DD}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LibOpcode", "LibOpcode\LibOpcode.vcxproj", "{53276A60-185E-4956-A790-64810ACCD130}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LibVectmath", "LibVectmath\LibVectmath.vcxproj", "{564A07CB-AF5F-4361-A9EA-52A25599B5DD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "zlib", "zlib\zlib.vcxproj", "{96F81742-5CFA-42D0-AA6B-1F1591665222}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libpng", "libpng\libpng.vcxproj", "{FE479409-76C3-48CB-A84D-C7F001DAAD8F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{96F81742-5CFA-42D0-AA6B-1F1591665222} = {96F81742-5CFA-42D0-AA6B-1F1591665222}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(DPCodeReviewSolutionGUID) = preSolution
+		DPCodeReviewSolutionGUID = {00000000-0000-0000-0000-000000000000}
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0BB2C5FA-0A85-42B0-BA57-C14CE39804A9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0BB2C5FA-0A85-42B0-BA57-C14CE39804A9}.Debug|Win32.Build.0 = Debug|Win32
+		{0BB2C5FA-0A85-42B0-BA57-C14CE39804A9}.Release|Win32.ActiveCfg = Release|Win32
+		{0BB2C5FA-0A85-42B0-BA57-C14CE39804A9}.Release|Win32.Build.0 = Release|Win32
+		{6D81292D-D7EB-43EA-8180-E3828223D346}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6D81292D-D7EB-43EA-8180-E3828223D346}.Debug|Win32.Build.0 = Debug|Win32
+		{6D81292D-D7EB-43EA-8180-E3828223D346}.Release|Win32.ActiveCfg = Release|Win32
+		{6D81292D-D7EB-43EA-8180-E3828223D346}.Release|Win32.Build.0 = Release|Win32
+		{53276A60-185E-4956-A790-64810ACCD130}.Debug|Win32.ActiveCfg = Debug|Win32
+		{53276A60-185E-4956-A790-64810ACCD130}.Debug|Win32.Build.0 = Debug|Win32
+		{53276A60-185E-4956-A790-64810ACCD130}.Release|Win32.ActiveCfg = Release|Win32
+		{53276A60-185E-4956-A790-64810ACCD130}.Release|Win32.Build.0 = Release|Win32
+		{564A07CB-AF5F-4361-A9EA-52A25599B5DD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{564A07CB-AF5F-4361-A9EA-52A25599B5DD}.Debug|Win32.Build.0 = Debug|Win32
+		{564A07CB-AF5F-4361-A9EA-52A25599B5DD}.Release|Win32.ActiveCfg = Release|Win32
+		{564A07CB-AF5F-4361-A9EA-52A25599B5DD}.Release|Win32.Build.0 = Release|Win32
+		{96F81742-5CFA-42D0-AA6B-1F1591665222}.Debug|Win32.ActiveCfg = Debug|Win32
+		{96F81742-5CFA-42D0-AA6B-1F1591665222}.Debug|Win32.Build.0 = Debug|Win32
+		{96F81742-5CFA-42D0-AA6B-1F1591665222}.Release|Win32.ActiveCfg = Release|Win32
+		{96F81742-5CFA-42D0-AA6B-1F1591665222}.Release|Win32.Build.0 = Release|Win32
+		{FE479409-76C3-48CB-A84D-C7F001DAAD8F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FE479409-76C3-48CB-A84D-C7F001DAAD8F}.Debug|Win32.Build.0 = Debug|Win32
+		{FE479409-76C3-48CB-A84D-C7F001DAAD8F}.Release|Win32.ActiveCfg = Release|Win32
+		{FE479409-76C3-48CB-A84D-C7F001DAAD8F}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

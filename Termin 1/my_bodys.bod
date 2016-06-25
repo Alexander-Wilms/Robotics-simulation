@@ -1,0 +1,60 @@
+BODYSFILE V 6.6
+! Z:\Desktop-Win\my_bodys.bod
+! L1195905-6 6
+BODYBODYS
+! --- Syntax ---
+! STATUS          grab[0,1,Unique_ID] ax_idx[0..dof] visible[0,1] invert[0,1] collision[0-off,1-concave,2-convex,3-bbox,4-disabled] show_name[0,1] bface_cull[0,1] show_normals[0,1] show_mesh[0,1] show_edges[0,1] show_transparent [0,1]
+! QUADER          name color render lx ly   lz   transparency collision_tolerance
+! PYRAMIDE        name color render lx ly   lz   dx    dy   transparency collision_tolerance
+! PYRAMIDENST     name color render lx ly   lz   lx2   ly2   dx    dy   transparency collision_tolerance
+! ZYLINDER        name color render r1 h1   r2   h2    ang   skal1 skal2 dx dy   transparency collision_tolerance
+! KEGEL           name color render r1 h1   skal dx    dy    ang   transparency collision_tolerance
+! KUGEL           name color render r  skal ang  beta1 beta2   transparency collision_tolerance
+! IGP             name color render IGP-Partfile xscal yscal zscal   transparency collision_tolerance
+! STL             name color render STL-Partfile xscal yscal zscal   transparency collision_tolerance
+! 3DS             name color render 3DS-Partfile xscal yscal zscal   transparency collision_tolerance
+! color=[1..15], render=[0=SMOOTH,1=WIRE,2=BBFLAT,3=BBWIRE,4=INVIS,5=POINTS,6=FLAT]
+! --- End Syntax ---
+!
+STATUS       0 0 1 0 1 0 1 0 0 0 0
+REFPOS                  0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+POS                    -0.5000000    0.7000000    0.4500000    0.0000000    0.0000000    0.0000000
+QUADER       PLATTE  15   0    1.00000    0.60000    0.05000    1.0    0.00000
+!
+STATUS       0 0 1 0 1 0 1 0 0 0 0
+REFPOS                  0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+POS                    -0.5000000    0.7000000    0.0000000    0.0000000    0.0000000    0.0000000
+QUADER       BEIN1  15   0    0.05000    0.05000    0.50000    1.0    0.00000
+!
+STATUS       0 0 1 0 1 0 1 0 0 0 0
+REFPOS                  0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+POS                    -0.5000000    1.2500000    0.0000000    0.0000000    0.0000000    0.0000000
+QUADER       BEIN2  15   0    0.05000    0.05000    0.50000    1.0    0.00000
+!
+STATUS       0 0 1 0 1 0 1 0 0 0 0
+REFPOS                  0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+POS                     0.4500000    0.7000000    0.0000000    0.0000000    0.0000000    0.0000000
+QUADER       BEIN3  15   0    0.05000    0.05000    0.50000    1.0    0.00000
+!
+STATUS       0 0 1 0 1 0 1 0 0 0 0
+REFPOS                  0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+POS                     0.4500000    1.2500000    0.0000000    0.0000000    0.0000000    0.0000000
+QUADER       BEIN4  15   0    0.05000    0.05000    0.50000    1.0    0.00000
+!
+STATUS       0 0 1 0 1 0 1 0 0 0 0
+REFPOS                  0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+POS                    -0.2500000    1.0000000    0.5000000    0.0000000    0.0000000    0.0000000
+ZYLINDER     ZYL1  12   0    0.05000    0.25000    0.05000    0.25000  360.00000    1.00000    1.00000     0.00000     0.00000    1.0    0.00000
+!
+STATUS       0 0 1 0 1 0 1 0 0 0 0
+REFPOS                  0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+POS                     0.0000000    1.0000000    0.5000000    0.0000000    0.0000000    0.0000000
+ZYLINDER     ZYL2  14   0    0.05000    0.25000    0.05000    0.25000  360.00000    1.00000    1.00000     0.00000     0.00000    1.0    0.00000
+!
+STATUS       0 0 1 0 1 0 1 0 0 0 0
+REFPOS                  0.0000000    0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+POS                     0.2500000    1.0000000    0.5000000    0.0000000    0.0000000    0.0000000
+ZYLINDER     ZYL3   2   0    0.05000    0.25000    0.05000    0.25000  360.00000    1.00000    1.00000     0.00000     0.00000    1.0    0.00000
+ENDBODYBODYS
+!
+! END BODYSFILE  1285431036

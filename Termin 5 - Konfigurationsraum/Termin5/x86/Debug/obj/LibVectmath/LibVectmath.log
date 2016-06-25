@@ -1,0 +1,20 @@
+﻿  vmcomplex.cpp
+  vector7.cpp
+  vector6.cpp
+  vector4.cpp
+  vector3.cpp
+  vector.cpp
+  transform.cpp
+  svd.cpp
+  rotation.cpp
+  roots.cpp
+  quaternion_xyz.cpp
+  quaternion.cpp
+  position.cpp
+  matrix.cpp
+  euler_angle_xyz.cpp
+  euler_angle.cpp
+  angle_axis_xyz.cpp
+  angle_axis.cpp
+  Code wird generiert...
+  LibVectmath.vcxproj -> C:\Users\Alexander Wilms\Documents\Ausbildung\Hochschule Darmstadt\6. Semester\Simulation von Robotersystemen\Praktikum\Termin 5 - Konfigurationsraum\Termin5\x86\Debug\LibVectmath.lib

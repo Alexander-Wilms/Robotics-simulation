@@ -1,0 +1,2 @@
+\select@language {german}
+\contentsline {section}{\numberline {1}Kollisionsfreie Bahnplanung im Konfigurationsraum (Breitensuche)}{3}
